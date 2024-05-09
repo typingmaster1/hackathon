@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: brown;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+.Container {
+  height: 30rem;
+  width: 35rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(165, 83, 83, 0.822);
+  box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 45px;
+}
+form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+input {
+  height: 5vh;
+  width: 35vw;
+  border-radius: 10px;
+  border: none;
+  padding: 9px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+#Submit {
+  height: 5vh;
+  width: 25vw;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

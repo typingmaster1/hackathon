@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.quiz {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+button {
+  height: 5vh;
+  width: 10vw;
+  border: none;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
